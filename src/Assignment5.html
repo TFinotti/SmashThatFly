@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+	   COMP 125 - Summer 2019
+	   Client-Side Web Development
+	   Blessing Ajiboye
+
+	   Bug Smasher Game - Assignment 5
+	   HTML 5 Canvas - JavaScript
+	   Author: Tiago Franco Finotti #301041366
+	   Date: Jul 26th 2019
+
+	   Filename: Assignment5.html
+	-->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Bug Smasher Game - Assignment 4</title>
+    <meta content="HTML 5 Canvas, Javascript" name="keywords">
+    <meta content="Simple game using HTML 5 Canvas" name="description">
+    <link href="Assignment5Styles.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <link href="MembershiStyles.css" rel="stylesheet" />
+    <![endif]-->
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h2>Smash That FLY!</h2>
+            <button type="button" id="btnScore">Reset Score</button>
+            <button type="button" id="btnSpeed">Reset Speed</button>
+            <label id="score">Your Score: </label>
+            <label id="scoreband" style="display: inline-block"></label>
+        </header>
+        <div id="background">
+            <img id="bug" src="../images/bug.png" alt="Target Image" width="49px" height="52px">
+        </div>
+        <footer>
+            <p id="copyright">&copy;&nbsp;Copyright Tiago Franco Finotti &bull; COMP125 - Summer 2019</p>
+        </footer>
+    </div>
+
+    <script src="Assignment5.js"></script>
+
+</body>
+
+</html>

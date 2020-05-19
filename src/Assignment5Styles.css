@@ -1,0 +1,100 @@
+/*
+	COMP 125 - Summer 2019
+	Client-Side Web Development
+	Blessing Ajiboye
+
+    Bug Smasher Game - Assignment 5
+	HTML 5 Canvas - JavaScript
+	Author: Tiago Franco Finotti #301041366
+	Date: Jul 26th 2019
+
+	Filename: Assignment5Styles.css
+*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #c0c0c0
+}
+
+#container{
+	background-color: rgb(153, 209, 255);
+	padding: 10px;	
+	margin-left:auto;
+	margin-right:auto;
+    width:980px;
+    border: black solid thin;
+    border-radius: 15px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+#background {
+    background-image:url("../images/background.jpg");
+    height: 500px;
+	width: 980px;
+	background-repeat: repeat;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+#btnSpeed, #btnReset{
+    width: 100px;
+}	
+
+h2{
+	padding: 5px;
+	text-align: center;
+	margin-bottom: auto;
+	margin-top: 0px;
+	font-weight: bold;
+	text-decoration: blink;
+	font-size: 30px;
+	
+}
+#bug {
+  left: 0%;
+  top: 19%;
+  position:relative;
+
+}
+button{
+	padding:5px;
+	text-align:center;
+	font-size: 15px;
+	margin-top:5px;
+	margin-right:10px;
+	margin-left:10px;
+	position:relative;
+
+}
+button:hover{
+	
+	background-color:yellow;
+}
+#scoreband{
+	font-size: 20px;
+}
+#score{
+	padding: 5px;
+	margin-left: 170px;
+	font-size: 20px;
+}
+footer {
+	margin-top: 50px;
+	text-align: center;
+	border: black solid thin;
+    border-radius: 15px;
+	box-shadow: 5px 5px 5px gray;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: small;
+}
+
+footer a{
+    text-decoration: none;
+    color: black
+}
+
+footer a:hover{
+    background-color: yellow;
+}
